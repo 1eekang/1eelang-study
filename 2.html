@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <title>Study</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <h1><a href="Study.html">STUDY</a></h1>
+  <ol>
+    <li><a href="1.html"> UNREAL</a></li>
+    <li><a href="2.html"> 3d-coat</a></li>
+    <li><a href="3.html"> Global Mapper</a></li>
+    <li><a href="4.html"> Coding</a></li>
+  </ol>
+
+  <h2>3d-coat</h2>
+  *.라이트맵 해상도를 낮출수록 UV아일랜드 사이 패딩을 늘려야 <strong><u><a href="https://docs.unrealengine.com/4.27/ko/RenderingAndGraphics/Lightmass/Basics/"
+    target="_blank" title="라이트매스">빛샘현상</a></u></strong>을 방지할 수 있다.
+  <img src="img_1.jpg" width="100%">
+  <br><br>*.cube map(hdri)의 해상도는 2의 제곱이어야 함
+  <p>hdri해상도를 높인다 해도 라이트맵 해상도가 스태틱 매시에서 너무 작으면 소용없다.</p>
+  <p style="margin-top:45px;"> lighting > PostProcessVolume > Lightmass Settings 탭> Use Ambient Occlusion 체크.</p>
+</body>
+</html>
